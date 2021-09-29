@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      六角學院 – JS 工程師養成直播班 (2021) – 課前 - validate (表單驗證)
+    </title>
+  </head>
+  <body>
+    <form id="myForm">
+      <label for="">套票名稱</label>
+      <input type="text" name="name" />
+      <div class="messages name"></div>
+
+      <label for="">圖片網址</label>
+      <input type="text" name="imgUrl" />
+      <div class="messages imgUrl"></div>
+
+      <label for="">景點地區</label>
+      <select name="area">
+        <option value="" selected disabled>選擇地區</option>
+        <option value="台北">台北</option>
+        <option value="台中">台中</option>
+        <option value="高雄">高雄</option>
+      </select>
+      <div class="messages area"></div>
+
+      <label for="">套票金額</label>
+      <input type="number" name="price" min="0" />
+      <div class="messages price"></div>
+
+      <label for="">套票組數</label>
+      <input type="number" name="group" min="0" />
+      <div class="messages group"></div>
+
+      <label for="">套票星級</label>
+      <input type="number" name="rate" min="0" max="10" />
+      <div class="messages rate"></div>
+
+      <label for="">套票描述</label>
+      <textarea type="text" name="description"></textarea>
+      <div class="messages description"></div>
+
+      <button type="submit">新增套票</button>
+    </form>
+  </body>
+</html>

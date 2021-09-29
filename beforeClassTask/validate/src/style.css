@@ -1,0 +1,7 @@
+label, textarea {
+  display: block;
+}
+
+.messages {
+  color: red;
+}

@@ -1,0 +1,13 @@
+.productImg{
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.cartAmount {
+  display: flex;
+  align-items: center;
+}
+
+.cartAmount-icon {
+  padding: 10px;
+}
